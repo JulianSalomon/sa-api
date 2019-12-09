@@ -13,6 +13,7 @@ RUN npm run prepublish
 
 ENV PORT=5000
 ENV SHOW_URLS=true
+ENV AUTH_URL=10.0.2.15
 ENV AUTH_PORT=4000
 ENV AUTH_USERS_ENTRY=sa-auth-ms/resources/users
 
